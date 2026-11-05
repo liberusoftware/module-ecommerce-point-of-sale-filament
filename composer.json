@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/ecommerce-point-of-sale-filament",
+  "description": "Point of Sale Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability3d92832c74cc\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "ecommerce-point-of-sale-filament"
+    }
+  }
+}
